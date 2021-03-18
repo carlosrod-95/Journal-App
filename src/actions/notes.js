@@ -11,8 +11,12 @@ export const startNewNote = () => {
             date: new Date().getTime()
         }
 
-        const doc = await db.collection(`${uid}/journal/notes`).add(newNote);
-        console.log(doc);
+        try {
+            const doc = await db.collection(`${uid}/journal/notes`).add(newNote);
+                    console.log(doc);
+            } catch(e) {
+             console.log(e);
+            }
 
     }
 }
