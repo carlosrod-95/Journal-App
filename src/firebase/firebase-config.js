@@ -3,12 +3,12 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDGi1I-s2NTMQGK4eu8ScHaIJyBVo6865c",
-    authDomain: "react-app-curso-e5940.firebaseapp.com",
-    projectId: "react-app-curso-e5940",
-    storageBucket: "react-app-curso-e5940.appspot.com",
-    messagingSenderId: "112161779800",
-    appId: "1:112161779800:web:1b19de3a11744372da1a2d"
+    apiKey: "AIzaSyBXSPJ9yN5_et0128oJIwxxYD4kA5pN1qM",
+    authDomain: "react-app-dos.firebaseapp.com",
+    projectId: "react-app-dos",
+    storageBucket: "react-app-dos.appspot.com",
+    messagingSenderId: "118874503537",
+    appId: "1:118874503537:web:fef1dcd6ebe13038ba5ed0"
   };
 
   firebase.initializeApp(firebaseConfig);
